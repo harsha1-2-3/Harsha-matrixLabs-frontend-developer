@@ -1,4 +1,6 @@
 /* Footer */
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
 .fo-cont {
   display: flex;
   flex-direction: column;
@@ -6,6 +8,7 @@
   align-items: center;
   background-color: black;
   padding: 20px;
+  font-family: Space Grotesk;
 }
 
 .fo-logo-icon-cont {

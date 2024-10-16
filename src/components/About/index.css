@@ -1,4 +1,6 @@
 /* About */
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
 .a-cont {
   display: flex;
   flex-direction: column;
@@ -8,6 +10,7 @@
   color: white;
   padding: 20px;
   background-color: #00161d;
+  font-family: Space Grotesk;
 }
 
 .a-card {

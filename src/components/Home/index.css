@@ -1,4 +1,6 @@
 /* Home */
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
 .h-cont {
   min-height: 100vh;
   display: flex;
@@ -7,6 +9,7 @@
   align-items: center;
   text-align: center;
   background-color: #00161d;
+  font-family: Space Grotesk;
 }
 
 .h-card {

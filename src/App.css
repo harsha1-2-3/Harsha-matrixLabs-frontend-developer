@@ -12,3 +12,7 @@
   margin: 0px;
   background-color: #00161d;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}

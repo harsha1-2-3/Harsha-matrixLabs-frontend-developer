@@ -51,7 +51,7 @@ const OurFeatures = () => {
             <h1 className="f-li-head">Portfolio Sync</h1>
             <p className="f-li-para">
               Easily manage your portfolio. You'll always know what you own, how
-              it's performing, and where it’s headed.
+              it's performing, and where its headed.
             </p>
           </li>
           <li className="f-li f-li-3 f-li-opportunity">
