@@ -12,24 +12,18 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="logo">My Portfolio</div>
+      <Link to="home">
+        <img
+          class="logo"
+          src="https://res.cloudinary.com/dazwjceuy/image/upload/v1728997075/Group_20_tjxcet.svg"
+          alt="logo"
+        />
+      </Link>
       <div className="menu-icon" onClick={toggleMenu}>
         {isOpen ? <FaTimes /> : <FaBars />}
       </div>
       <ul className={`nav-links ${isOpen ? "active" : ""}`}>
-        <li>
-          <Link
-            activeClass="active"
-            offset={-50}
-            spy={true}
-            to="home"
-            smooth={true}
-            duration={500}
-          >
-            Home
-          </Link>
-        </li>
-        <li>
+        <li className="nav-links-li">
           <Link
             activeClass="active"
             spy={true}
@@ -37,10 +31,10 @@ const Navbar = () => {
             smooth={true}
             duration={500}
           >
-            Our Features
+            Features
           </Link>
         </li>
-        <li>
+        <li className="nav-links-li">
           <Link
             activeClass="active"
             spy={true}
@@ -48,10 +42,10 @@ const Navbar = () => {
             smooth={true}
             duration={500}
           >
-            About
+            Why Us
           </Link>
         </li>
-        <li>
+        <li className="nav-links-li">
           <Link
             activeClass="active"
             spy={true}
@@ -62,7 +56,7 @@ const Navbar = () => {
             Tokenomics
           </Link>
         </li>
-        <li>
+        <li className="nav-links-li">
           <Link
             activeClass="active"
             spy={true}
@@ -73,21 +67,10 @@ const Navbar = () => {
             Roadmap
           </Link>
         </li>
-        <li>
-          <Link
-            activeClass="active"
-            spy={true}
-            to="footer"
-            smooth={true}
-            duration={500}
-          >
-            Footer
-          </Link>
-        </li>
       </ul>
       <div className="login-btns">
-        <button>Login In</button>
-        <button>Sign Up</button>
+        <button className="login-btn">Login In</button>
+        <button className="paper-btn">Whitepaper</button>
       </div>
     </nav>
   );

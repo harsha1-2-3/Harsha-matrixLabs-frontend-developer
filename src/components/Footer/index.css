@@ -1,3 +1,138 @@
-.footer-cont {
-  min-height: 100vh;
+/* Footer */
+.fo-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 20px;
+}
+
+.fo-logo-icon-cont {
+  text-align: center;
+}
+
+.fo-logo-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+
+.fo-logo {
+  height: 30px;
+  width: 30px;
+  margin: 0px;
+}
+
+.fo-head {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0px;
+  color: white;
+  margin-left: 3px;
+}
+
+.fo-icons-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px;
+  margin-top: 15px;
+}
+
+.fo-icon {
+  height: 20px;
+  width: 20px;
+  font-size: 20px;
+  margin: 10px;
+  color: white;
+}
+
+.fo-designer-cont {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.fo-designer-head {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+.fo-email-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #fbfaf266;
+  border-radius: 20px;
+  width: 95%;
+  padding: 3px;
+}
+
+.fo-input {
+  background-color: transparent;
+  cursor: text;
+  outline: none;
+  border: 0px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.fo-btn {
+  border: 1px solid #fbfaf266;
+  cursor: pointer;
+  outline: none;
+  height: 45px;
+  width: 110px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #011c24;
+  box-shadow: 0px 0px 40px 0px #8bf9e833 inset;
+  color: white;
+  font-weight: bold;
+}
+
+@media (min-width: 992px) {
+  .fo-cont {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .fo-logo-cont {
+    justify-content: flex-start;
+    margin: 10px;
+  }
+
+  .fo-designer-cont {
+    display: flex;
+  }
+
+  .fo-designer-head {
+    font-size: 30px;
+    width: 380px;
+  }
+
+  .fo-email-cont {
+    border-width: 2px;
+    border-radius: 13px;
+    justify-content: space-between;
+  }
+
+  .fo-btn {
+    border-width: 2px;
+  }
 }

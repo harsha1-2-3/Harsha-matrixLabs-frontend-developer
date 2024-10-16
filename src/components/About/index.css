@@ -1,3 +1,131 @@
-.about-cont {
+/* About */
+.a-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   min-height: 100vh;
+  color: white;
+  padding: 20px;
+  background-color: #00161d;
+}
+
+.a-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 70%;
+  width: 80%;
+  margin: 0px;
+}
+
+.a-head {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 15px;
+}
+
+.a-para {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin: 0px;
+  color: #b0faffb2;
+  margin-bottom: 15px;
+}
+
+.a-btn {
+  box-shadow: 0px 0px 1px 1px #4cddfd inset;
+  background-color: #cdfcff;
+  border: 0px;
+  width: 131px;
+  height: 44px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 12px;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #0b2a2d;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.a-ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f373c;
+  border-radius: 10px;
+  list-style-type: none;
+  padding-left: 0px;
+  padding: 20px;
+}
+
+.a-li {
+  text-align: left;
+  margin-bottom: 15px;
+  width: 95%;
+}
+
+.a-li-img {
+  height: 30px;
+  width: 30px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.a-li-head {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.a-li-para {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0px;
+  color: #b0faffb2;
+  margin-bottom: 5px;
+}
+
+@media (min-width: 992px) {
+  .a-card {
+    width: 60%;
+  }
+
+  .a-head {
+    font-size: 40px;
+  }
+
+  .a-ul {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    padding: 50px;
+    border-radius: 20px;
+  }
+
+  .a-li {
+    width: 50%;
+  }
+
+  .a-li-img {
+    height: 25px;
+    width: 25px;
+    margin-bottom: 10px;
+  }
+
+  .a-li-head {
+    font-size: 25px;
+  }
 }

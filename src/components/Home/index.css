@@ -1,3 +1,96 @@
-.home-cont {
-  height: 100vh;
+/* Home */
+.h-cont {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #00161d;
+}
+
+.h-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50%;
+  width: 65%;
+}
+
+.h-head {
+  color: white;
+  font-size: 45px;
+  line-height: 35px;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.h-span {
+  color: black;
+  background-color: cyan;
+  border-radius: 30px;
+  padding: 8px;
+  font-size: 15px;
+  font-weight: 300;
+  margin: 0px;
+}
+
+.h-para {
+  color: cyan;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.h-btn {
+  box-shadow: 0px 0px 1px 1px #4cddfd inset;
+  background-color: #cdfcff;
+  border: 0px;
+  width: 131px;
+  height: 44px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 12px;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #0b2a2d;
+  font-weight: 400;
+}
+
+@media (min-width: 992px) {
+  .h-cont {
+    background-image: url("https://res.cloudinary.com/dazwjceuy/image/upload/v1728969529/image_eja03g.png");
+    background-size: cover;
+  }
+
+  .h-head {
+    font-size: 65px;
+    font-weight: bold;
+    line-height: 90px;
+    margin-bottom: 20px;
+  }
+
+  .h-span {
+    font-size: 50px;
+    font-weight: 500;
+    padding: 15px;
+    border-radius: 50px;
+  }
+
+  .h-para {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  .h-btn {
+    box-shadow: 0px 0px 40px 0px #8bf9e833 inset;
+    color: cyan;
+    font-size: 20px;
+    height: 55px;
+    width: 180px;
+    margin-top: 10px;
+    background-color: transparent;
+  }
 }

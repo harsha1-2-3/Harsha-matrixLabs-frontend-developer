@@ -1,3 +1,232 @@
-.features-cont {
+/* OurFeatures */
+.f-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
+  background-color: #00161d;
+}
+
+.f-head {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.f-ul {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.f-li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #0f373c;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.f-li-img {
+  height: 100px;
+  width: 100px;
+  margin: 0px;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+
+.f-li-head {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+.f-li-para {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin: 0px;
+  color: #b0faffb2;
+}
+
+.f-li-big {
+  display: none;
+}
+
+.f-li-1 {
+  background-size: cover;
+  background-image: url("https://res.cloudinary.com/dazwjceuy/image/upload/v1728973893/7AVABZyyTAliootVGguafuelpHU.svg_uz0pmf.png");
+}
+
+.f-li-2 {
+  background-size: cover;
+  background-image: url("https://res.cloudinary.com/dazwjceuy/image/upload/v1728975421/Group_pjfqx4.png");
+}
+
+.f-li-3 {
+  background-size: cover;
+  background-image: url("https://res.cloudinary.com/dazwjceuy/image/upload/v1728975434/2034690_271695-P5GZLA-551_1_qsihkq.png");
+}
+
+.f-li-img-1 {
+  background-color: #00161d;
+  height: 170px;
+  width: 180px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+@media (min-width: 992px) {
+  .f-head {
+    display: none;
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+
+  .f-cont {
+    padding: 30px;
+  }
+
+  .f-ul {
+    border-radius: 20px;
+    padding: 20px;
+  }
+
+  .f-li {
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 5px;
+  }
+
+  .f-li-img {
+    height: 130px;
+    width: 130px;
+  }
+
+  .f-li-img-1 {
+    height: 170px;
+    width: 170px;
+  }
+
+  .f-li-head {
+    font-size: 26px;
+  }
+
+  .f-li-para {
+    font-size: 15px;
+  }
+
+  .f-li-big {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+  }
+
+  .f-li-top-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .f-li-top-head-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .f-li-bottom-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .f-li-trade {
+    width: 250px;
+    height: 400px;
+    padding: 72px 37px 32px 37px;
+    border-radius: 56px 16px 16px 16px;
+    box-shadow: 0px 0px 32px 16px #63f2ff1a inset;
+    background-color: #011c24;
+  }
+
+  .f-li-market {
+    width: 430px;
+    height: 180px;
+    padding: 20px;
+    border-radius: 16px 16px 0px 0px;
+    box-shadow: 0px 0px 32px 16px #63f2ff1a inset;
+    background-color: #011c24;
+    background-image: none;
+  }
+
+  .f-li-heading {
+    color: cyan;
+    width: 430px;
+    height: 230px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 32px 16px #63f2ff1a inset;
+    background-color: #011c24;
+  }
+
+  .f-li-risk {
+    width: 250px;
+    height: 433px;
+    padding: 32px 22px 32px 22px;
+    border-radius: 16px 56px 16px 16px;
+    box-shadow: 0px 0px 32px 16px #63f2ff1a inset;
+    background-color: #011c24;
+  }
+
+  .f-li-risk-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .f-li-img-1 {
+    order: 1;
+  }
+
+  .f-li-portfolio {
+    width: 510px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 16px 16px 16px 56px;
+    box-shadow: 0px 0px 32px 16px #63f2ff1a inset;
+    background-color: #011c24;
+    background-image: none;
+  }
+
+  .f-li-opportunity {
+    width: 510px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 16px 16px 56px 16px;
+    box-shadow: 0px 0px 32px 16px #63f2ff1a inset;
+    background-color: #011c24;
+    background-image: none;
+  }
 }

@@ -1,42 +1,14 @@
-body::-webkit-scrollbar {
-  display: none;
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+* {
+  font-family: Space Grotesk;
 }
 
-body {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-  padding: 20px;
-}
-
-html,
-body {
-  overflow: hidden;
-}
-
-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #333;
-  color: white;
-  padding: 1rem;
-}
-
-nav ul {
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-}
-
-nav ul li {
-  cursor: pointer;
-}
-
-section {
-  height: 100vh;
-  padding: 20px;
-}
-
-h1 {
-  text-align: center;
+/* App.js */
+.app-cont {
+  min-height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  background-color: #00161d;
 }
